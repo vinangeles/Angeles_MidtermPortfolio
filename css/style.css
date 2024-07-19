@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+  
+
+@font-face {
+    font-family: 'Gibstone Black';
+    src: url('/assets/fonts/gibstonetrial-black-webfont.woff') format('woff'),
+         url('/assets/fonts/gibstonetrial-black-webfont.woff2') format('woff2');
+  }
+
+
+  
+.hero{
+    background-color: #edf0b7;
+}
+.about{
+    background-color: #dff0b7;
+}
+.work{
+    background-color: #d1f0b7;
+}
+.contact {
+    background-color: #bcf0b7;
+    ;
+}
+* {
+    font-family: 'Gibstone Black', sans-serif;
+}
+.fluid-image {
+    max-width: auto;
+    max-height: auto;
+}
+.accordion-button {
+    font-size: 24px;
+}
+.hero-name{
+    width: 100%;
+    font-size: 96px;
+}
+.numbered {
+    font-family: 'Anton SC';
+}
+#GG:link, #GG:visited {
+    color: black;
+    text-decoration: none;
+}
+#GG:hover {
+    text-shadow: 3px 3px #d8b358;
+}
+#workEx1{
+    width: 600px;
+    
+}
+#workEx2{
+    width: 600px;
+}
+#workEx1 .carousel img,  #workEx2 .carousel img{
+    height: 300px;
+    width: 100%;
+    object-fit:contain;
+    object-position: center;
+}

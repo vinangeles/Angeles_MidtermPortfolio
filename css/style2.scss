@@ -1,0 +1,27 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.hero-name {
+    @include font-size(96px);
+}
+
+@font-face {
+    font-family: 'Gibstone Black';
+    src: url('/assets/fonts/gibstonetrial-black-webfont.woff') format('woff'),
+         url('/assets/fonts/gibstonetrial-black-webfont.woff2') format('woff2');
+  }
+.hero{
+    background-color: #edf0b7;
+}
+nav{
+    background-color: #edf0b7;
+}
+.about{
+    background-color: rgb(238, 135, 221);
+}
+.gibstone {
+    font-family: 'Gibstone Black', sans-serif;
+}
+.fluid-image {
+    max-width: auto;
+    max-height: auto;
+}
