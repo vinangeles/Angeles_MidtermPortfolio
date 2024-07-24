@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
-  
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
 
 @font-face {
     font-family: 'Gibstone Black';
@@ -23,7 +23,7 @@
     ;
 }
 * {
-    font-family: 'Gibstone Black', sans-serif;
+    font-family: 'Gibstone Black', "IBM Plex Sans", sans-serif;
 }
 .fluid-image {
     max-width: auto;
